@@ -1,6 +1,6 @@
 package gopointer
 
-func ToPinter[T any](value T) *T {
+func ToPointer[T any](value T) *T {
 	return &value
 }
 
